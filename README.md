@@ -2,7 +2,7 @@
 ##Introduction
 The code in this repository is an implementation of the game [Egyptian Ratscrew](https://en.wikipedia.org/wiki/Egyptian_Ratscrew) as was taught to me by my daughter. 
 
-Unlike other games she's taught me, this one had an interesting element of being quick on the draw; you have to be able to react quickly to the card that's played, remembering a number of disparate rules and hope you can get to the pile before the other player(s).
+Unlike other games she's taught me, this one had an interesting element of being quick on the draw; you have to be able to react quickly to the card that's played, (called [Slapping](https://en.wikipedia.org/wiki/Egyptian_Ratscrew#Slapping) by Wikipedia), remembering a number of disparate rules and hope you can get to the pile before the other player(s).
 
 I had not worked with C++11's threading functionality before; I had always used either pthreads or Windows' threading API (::CreateThread() or _beginthread() anyone???), so I thought this would be a nice way to learn how threading had been implemented within C++11 itself.
 
