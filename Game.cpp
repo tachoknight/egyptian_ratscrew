@@ -57,15 +57,6 @@ int Game::getRandomSkillLevel() {
 }
 
 void Game::dealCards() {
-#if 0
-    players[0].addCardToHand(Card(Rank::JACK, Suit::CLUBS));
-    players[0].addCardToHand(Card(Rank::SEVEN, Suit::CLUBS));
-    players[0].addCardToHand(Card(Rank::TWO, Suit::CLUBS));
-    players[1].addCardToHand(Card(Rank::TEN, Suit::CLUBS));
-    players[1].addCardToHand(Card(Rank::ACE, Suit::CLUBS));
-    players[1].addCardToHand(Card(Rank::FIVE, Suit::CLUBS));
-#endif
-//#if 0
     gameLog << "GAME: Dealing out all the cards... (" << deck.size() << " cards)" << lendl;
 
     int player = 0;
@@ -80,7 +71,6 @@ void Game::dealCards() {
     }
 
     gameLog << "GAME: We've dealt all the cards. (Deck size is now " << deck.size() << ")" << lendl;
-//#endif
 }
 
 void Game::start() {
